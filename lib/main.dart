@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page2.dart';
+import 'widget/chattile.dart';
 
 void main() => runApp(const MyApp());
 
