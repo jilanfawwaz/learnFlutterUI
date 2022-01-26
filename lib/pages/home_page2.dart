@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         backgroundColor: greencolor,
-        child: Icon(
+        child: const Icon(
           Icons.add,
           size: 28,
         ),
@@ -23,34 +23,34 @@ class HomePage extends StatelessWidget {
           child: Center(
             child: Column(
               children: [
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 Image.asset(
                   'assets/images/profile_pic.png',
                   height: 100,
                   width: 100,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Text(
                   'Sabrina Juminten',
                   style: TextStyle(fontSize: 20, color: whitecolor),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 2,
                 ),
                 Text(
                   'Travel Freelancer',
                   style: TextStyle(fontSize: 16, color: lightbluecolor),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
                 Container(
                   width: double.infinity,
                   //height: 100,
-                  padding: EdgeInsets.all(30),
+                  padding: const EdgeInsets.all(30),
                   decoration: BoxDecoration(
                     color: whitecolor,
-                    borderRadius: BorderRadius.vertical(
+                    borderRadius: const BorderRadius.vertical(
                       top: Radius.circular(40),
                     ),
                   ),
@@ -62,70 +62,70 @@ class HomePage extends StatelessWidget {
                         'Friends',
                         style: titleTextStyle,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/friend1.png',
                         name: 'Joshuer',
                         chat: 'Sorry, you’re not my ty...',
                         time: 'NOW',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/friend2.png',
                         name: 'Gabriela',
                         chat: 'I saw it clearly and mig...',
                         time: '2:30',
                         unread: false,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 30,
                       ),
                       Text(
                         'Groups',
                         style: titleTextStyle,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group1.png',
                         name: 'Jakarta Fair',
                         chat: 'I saw it clearly and mig...',
                         time: '11:11',
                         unread: false,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group2.png',
                         name: 'Angga',
                         chat: 'Here here we can go...',
                         time: '7:11',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group3.png',
                         name: 'Bentley',
                         chat: 'The car which does not...',
                         time: '7:11',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group3.png',
                         name: 'Bentley',
                         chat: 'The car which does not...',
                         time: '7:11',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group3.png',
                         name: 'Bentley',
                         chat: 'The car which does not...',
                         time: '7:11',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group3.png',
                         name: 'Bentley',
                         chat: 'The car which does not...',
                         time: '7:11',
                         unread: true,
                       ),
-                      ChatTile(
+                      const ChatTile(
                         imageURL: 'assets/images/group3.png',
                         name: 'Bentley',
                         chat: 'The car which does not...',

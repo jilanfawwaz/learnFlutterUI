@@ -11,11 +11,13 @@ class ChatTile extends StatelessWidget {
   final bool? unread;
 
   const ChatTile(
-      {this.imageURL = '',
+      {Key? key,
+      this.imageURL = '',
       this.name = '',
       this.chat = '',
       this.time = '',
-      this.unread});
+      this.unread})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +30,7 @@ class ChatTile extends StatelessWidget {
             width: 55,
             height: 55,
           ),
-          SizedBox(
+          const SizedBox(
             width: 12,
           ),
           Column(
@@ -38,7 +40,7 @@ class ChatTile extends StatelessWidget {
                 name,
                 style: titleTextStyle,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 2,
               ),
               Text(
@@ -51,7 +53,7 @@ class ChatTile extends StatelessWidget {
               ),
             ],
           ),
-          Spacer(),
+          const Spacer(),
           Text(
             time,
             style: subTextStyle,

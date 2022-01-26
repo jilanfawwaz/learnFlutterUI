@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page2.dart';
-import 'widget/chattile.dart';
+//import 'package:basic_ui/widget/chattile.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Poppins'),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
